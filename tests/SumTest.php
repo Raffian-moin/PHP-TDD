@@ -19,7 +19,7 @@ final class SumTest extends TestCase
     }
 
     #[DataProvider('additionProvider')]
-    public function testadd(int $a, int $b, int $expected): void
+    public function test_it_can_add_two_numbers(int $a, int $b, int $expected): void
     {
         $sum = new Sum();
 
